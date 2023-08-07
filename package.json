@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "lerna run dev --parallel",
-    "build": "lerna run build",
-    "clean": "rm -f packages/*/src/main.{js,d.ts}"
+    "dev": "lerna run dev --parallel"
   },
   "workspaces": [
     "packages/*"
