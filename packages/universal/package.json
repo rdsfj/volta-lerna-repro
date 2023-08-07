@@ -1,0 +1,17 @@
+{
+  "name": "universal",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "echo package universal started in $(pwd) && tsc --declaration --watch src/main.ts",
+    "build": "tsc --declaration src/main.ts"
+  },
+  "type": "module",
+  "module": "./src/main.js",
+  "types": "./src/main.d.ts",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "volta": {
+    "extends": "../../package.json"
+  }
+}
